@@ -1,4 +1,4 @@
-# Server details
+# Server Details
 * IP address: 18.220.83.174
 * Public DNS: ec2-18-220-83-174.us-east-2.compute.amazonaws.com
 * SSH port: 2200
