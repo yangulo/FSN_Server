@@ -32,6 +32,11 @@ The steps to Configure the Linux server are listed below:
     sudo nano /etc/sudoers.d/grader
     ```
 
+    * Add following line to this file
+    ```
+    grader ALL=(ALL:ALL) ALL
+    ```
+    
 3. Update all currently installed packages
     * Update the package indexes
 
@@ -316,7 +321,7 @@ The steps to Configure the Linux server are listed below:
     </VirtualHost>
     ```
 
-    * <b>Note:</b> that XX.XXX.XX.XXX is the Public IP you can fine in AWS
+    * <b>Note:</b> that XX.XXX.XX.XXX is the Public IP that you can fine in your AWS instance
 
 17. Restart Apache to launch the app
 
