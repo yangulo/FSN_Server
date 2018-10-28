@@ -1,3 +1,8 @@
+## Server details
+* IP address: 18.220.83.174
+* Public DNS: ec2-18-220-83-174.us-east-2.compute.amazonaws.com
+* SSH port: 2200
+
 # Linux Server Configuration
 This project is part of the Full Stack Web Developer Nanodegree offered by Udacity. This project covers:
 
@@ -36,7 +41,7 @@ The steps to Configure the Linux server are listed below:
     ```
     grader ALL=(ALL:ALL) ALL
     ```
-    
+
 3. Update all currently installed packages
     * Update the package indexes
 
@@ -321,7 +326,7 @@ The steps to Configure the Linux server are listed below:
     </VirtualHost>
     ```
 
-    * <b>Note:</b> that XX.XXX.XX.XXX is the Public IP that you can fine in your AWS instance
+    * <b>Note:</b> that XX.XXX.XX.XXX is the Public IP you can fine in AWS
 
 17. Restart Apache to launch the app
 
